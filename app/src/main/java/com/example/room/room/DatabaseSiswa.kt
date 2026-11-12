@@ -13,5 +13,7 @@ companion object {
     @Volatile
     private var Instance : DatabaseSiswa? = null
 
-    fun
+    fun getDatabase(context: Context) : DatabaseSiswa {
+        return (Instance?: Syncronized(this) {)
+    }
 }
