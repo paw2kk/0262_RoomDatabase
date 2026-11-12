@@ -31,8 +31,12 @@ compose-icons = { module = "androidx.compose.material:material-icons-extended"}
 room-runtime = { module= "androidx.room:room-runtime", version.ref = "room" }
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+lifecycle-viewmodel-compose = {module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "2.10.0"}
+lifecycle-runtime-compose = {module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "2.10.2"}
+navigation-compose = {module = "androidx.navigation:navigation-compose", version.ref = "2.9.6"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "kspver"}
