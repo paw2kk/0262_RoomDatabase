@@ -1,7 +1,5 @@
 package com.example.room.uicontroller
 
-package com.example.roomdb.uicontroller
-
 import com.example.room.R
 
 object DestinasiEntry : DestinasiNavigasi {
