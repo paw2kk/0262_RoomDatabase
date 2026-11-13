@@ -1,9 +1,10 @@
 package com.example.room
+
 import android.app.Application
 import com.example.room.repositori.ContainerApp
 import com.example.room.repositori.ContainerDataApp
 
-class plikasiSiswa : Application() {
+class AplikasiSiswa : Application() {
     /**
      * AppContainer instance digunakan oleh kelas-kelas lainnya untuk mendapatkan dependensi
      */
